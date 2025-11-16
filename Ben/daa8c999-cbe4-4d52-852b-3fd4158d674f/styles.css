@@ -1,0 +1,53 @@
+body {
+  background-color: #48a1f5;
+}
+/* Seccion beneficios */
+.bene-section {
+  padding: 40px 60px;
+  max-width: 100%;
+  margin: 0;
+  background-color: #48a1f5;
+}
+.bene-section h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.4rem;
+  font-family: Roboto;
+  margin-bottom: 32px;
+  color: #000;
+}
+
+.bene-cartas {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.bene-carta {
+  position: relative;
+  background-color: #0c478b;
+  border-radius: 15px;
+  width: 260px;
+  color: white;
+  padding: 24px;
+  box-shadow: 0 0 12px #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: default;
+}
+
+.bene-carta:hover {
+  box-shadow: 0 8px 16px #000;
+}
+
+.bene-carta img {
+  width: 110px;
+  height: auto;
+  margin-bottom: 18px;
+}
+.bene-carta p {
+  font-weight: 600;
+  font-size: 1, 05rem;
+  line-height: 1.3;
+}
